@@ -1,8 +1,8 @@
 import { Pipe, PipeTransform } from '@angular/core';
-
+import { IProduct } from './product';
 
 @Pipe({
-    name: 'productFilter'
+    name: 'productFilter',
 })
 
 export class ProductFilterPipe

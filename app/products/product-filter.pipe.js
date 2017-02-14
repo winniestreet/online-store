@@ -19,7 +19,7 @@ var ProductFilterPipe = (function () {
 }());
 ProductFilterPipe = __decorate([
     core_1.Pipe({
-        name: 'productFilter'
+        name: 'productFilter',
     })
 ], ProductFilterPipe);
 exports.ProductFilterPipe = ProductFilterPipe;
